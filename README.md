@@ -88,6 +88,9 @@ folium.LayerControl().add_to(map2)
 map2
 
 ```
+
+<img src= worcester3.jpg>
+
 # Plotting Interactive markers on the map
 
 Markers are used for marking locations on a map. Markers are very helpful to identify locations and places on a map. folium uses folium.Marker() class for plotting markers on a map. we pass the coordinates, the pop-up message along with a hyperlink and the tooltip to display a marker. we include the hyperlinks so that the user can know more the marker by just clicking on it. We add four markers for Worcester Regional Airport, Union Station, Clark University and University of Massachusetts Cancer Center. 
@@ -112,6 +115,9 @@ folium.Marker(location=[42.27801397352389, -71.76045919601029],icon=folium.Icon(
 map3
 
 ```
+
+<img src = worcester4.jpg>
+
 
 # Plotting Polyline using Folium
 
@@ -155,6 +161,7 @@ coords_2=[[42.26146715715911, -71.79469133279913],[42.26145892503175, -71.794424
 [42.27601357188379, -71.76118088795974],[42.27644224417581, -71.76092876031306]]
 
 ```
+
 ```
 fig5 = Figure(height = 600, width = 750)
 map5 = folium.Map(location=[42.271487800314624, -71.80636673734611],tiles='Stamen Toner',zoom_start=12)
@@ -176,3 +183,12 @@ folium.LayerControl().add_to(map5)
 map5
 
 ```
+<img src = worcester5.jpg>
+<img src = worcester6.jpg>
+
+
+# Citations:
+1. [Folium Documentation](https://python-visualization.github.io/folium/)
+2. [Python Visualization](https://github.com/python-visualization/folium)
+3. [W3 Schools](https://www.w3schools.com/)
+
