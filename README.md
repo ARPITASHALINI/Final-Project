@@ -187,6 +187,8 @@ map5
 <img src = worcester6.jpg>
 
 
+# Conclusion:
+Through ths tutorial we are able to learn and analyze the different way of interactivity we can add to a map using folium. Along the way there were many challenges that I faced, especially with changing the marker icon. This is something I have been struggling for a whiie now. I hope from this tutorial helps in making the user interactivity of maps. 
 # Citations:
 1. [Folium Documentation](https://python-visualization.github.io/folium/)
 2. [Python Visualization](https://github.com/python-visualization/folium)
