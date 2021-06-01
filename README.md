@@ -59,20 +59,27 @@ Folium creates map using different tileset such as Stamen Terrain, Stamen Toner,
 
 ```
 # In this chunk we give an option to chose between different basemaps
-fig2 = Figure(width = 600, height = 450)          
+fig2 = Figure(width = 600, height = 450) 
+
 # Setting the zoom to Worcester. 
 map2 = folium.Map(location = [42.27199589252885, -71.80396347794411])           
 fig2.add_child(map2)
+
 # Stamen Terrain as an option for basemap
-folium.TileLayer('Stamen Terrain').add_to(map2)    
+folium.TileLayer('Stamen Terrain').add_to(map2) 
+
 # Stamen Toner as an option for basemap
 folium.TileLayer('Stamen Toner').add_to(map2)  
+
 # Stamen Water Color as an option for basemap  
 folium.TileLayer('Stamen Water Color').add_to(map2) 
+
 # CartoDB Positron as an option for basemap
-folium.TileLayer('cartodbpositron').add_to(map2)      
+folium.TileLayer('cartodbpositron').add_to(map2)   
+
 # CartoDB Dark Matter as an option for basemap
 folium.TileLayer('cartodbdark_matter').add_to(map2)  
+
 # Bar to chose between different layers. 
 folium.LayerControl().add_to(map2)                                             
 map2
