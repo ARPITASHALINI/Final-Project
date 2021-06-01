@@ -48,12 +48,13 @@ fig = Figure(width = 600, height = 450)
 In the above code we use [branca](https://github.com/python-visualization/branca) library in python. We also want to set a zoom level for Worcester which we do through the following code:
 
 ```
-#Setting minimum and maximum zoom levels
+# Setting minimum and maximum zoom levels
 map1 = folium.Map(width=600, height=450, location=[42.27199589252885, -71.80396347794411], zoom_start=11, min_zoom=8, max_zoom=14)             
 fig.add_child(map1)
 map1 
 
 ```
+<img src = Worcester2.jpg>
 
 # Interactivity using different basemaps
 
