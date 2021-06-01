@@ -43,6 +43,8 @@ from branca.element import Figure
 fig = Figure(width = 600, height = 450)
 
 ```
+<img src = Worcester1.jpg>
+
 In the above code we use [branca](https://github.com/python-visualization/branca) library in python. We also want to set a zoom level for Worcester which we do through the following code:
 
 ```
